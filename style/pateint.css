@@ -1,0 +1,242 @@
+.empInfo {
+    background-color: rgba(1, 1, 1, 0.5);
+    transform: 0.5;
+    width: 460px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    left: 80px;
+    position: absolute;
+    top: 50px;
+    height: 600px;
+    margin: 20px;
+    padding-top: 30px;
+
+}
+
+.empAdd {
+    background-color: rgba(1, 1, 1, 0.5);
+    /* padding-top: 10px; */
+
+    width: 390px;
+    top: 70px;
+    display: flex;
+    flex-direction: column;
+    left: 450px;
+    align-items: center;
+    position: absolute;
+    height: 600px;
+    padding-top: 30px;
+}
+
+.btnclass {
+    position: absolute;
+
+
+    height: 50px;
+    width: 400px;
+    top: 470px;
+    left: 100px;
+}
+
+.input {
+    width: 300px;
+    border-radius: 2px;
+    height: 30px;
+
+
+}
+
+.save {
+    padding: 15px;
+    border-bottom-color: red;
+    border-top-color: green;
+    background-color: rgba(1, 1, 1, 0.2);
+    color: #CCF381;
+    width: 200px;
+    border-radius: 10px;
+    font-size: large;
+    margin-right: 30px;
+}
+
+.save:hover {
+    color: black;
+    background-color: white;
+}
+
+.fieldone {
+    top: 0px;
+    width: 1300px;
+    height: 600px;
+    border: solid black;
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+body {
+    background-color: rgba(1, 1, 1, 0.2);
+    background-image: url("images/homepageback.jpg");
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.label {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #F0A07C;
+}
+
+h3 {
+    color: black;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 300px;
+}
+
+.btnclass {
+
+    top: 750px;
+    left: 320px;
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+
+
+    background-color: #33adff;
+    background-repeat: none;
+    background-size: cover;
+
+}
+
+#storempAdd {
+    left: 560px;
+
+}
+
+#linkers {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    background-color: #4d4dff;
+    height: 550px;
+    border-radius: 20px;
+    left: 30px;
+    top: 100px;
+
+}
+
+.wts {
+    position: absolute;
+    left: 300px;
+}
+
+/* #btnclassforStore{
+top: 500px;
+left: 350px;
+width: 600px;
+} */
+.pharm {
+    position: absolute;
+    left: 800px;
+    height: 800px;
+    width: 800px;
+    top: 100px;
+    border-radius: 30px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    background-color: rgba(1, 1, 1, 1);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    margin-left: 0px;
+
+    padding-left: 20px;
+
+
+}
+
+.header:hover {
+    background-color: rgba(1, 1, 1, 1);
+}
+
+.linkers {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    color: aquamarine;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    left: 60%;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.linkers:hover {
+    text-decoration: wavy;
+    color: black;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
+h2 {
+    color: aquamarine;
+    position: relative;
+
+
+}
+
+
+.div2 {
+    position: relative;
+    margin: 5px;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.error {
+    color: red;
+}
+
+.forboth {
+
+    width: 1000px;
+    height: 800px;
+    position: absolute;
+    margin-left: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    left: 100px;
+    margin-top: 20px;
+
+}
+
+.forboth2 {
+    background-color: aquamarine;
+
+    width: 1000px;
+    height: 800px;
+    position: absolute;
+    margin-left: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    left: 100px;
+    margin-top: 20px;
+
+}

@@ -1,0 +1,153 @@
+body{
+background-image: url("images/homepageback.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.adminlogin{
+    position: absolute;
+    height: 300px;
+    left: 40px;
+    width: 300px;
+ top: 100px;
+ padding: 20px;
+ border-radius: 30px;
+ border: solid skyblue 2px;
+ color: aquamarine;
+}
+.adminlogin:hover{
+    background-color: rgba(1, 1, 1,0.5);
+}
+a img{
+    height: 250px;
+    width: 300px;  
+    border-radius: 30px; 
+}
+.login{
+    top: 100px;
+    position: absolute;
+    height: 300px;
+    left: 500px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 30px;
+    border: solid skyblue 2px;
+    color: aquamarine;
+}
+.login:hover{
+    background-color: rgba(1, 1, 1,0.5);
+}
+.billreg{
+    position: absolute;
+    height: 300px;
+    left: 40px;
+    top: 470px;
+    width: 300px; 
+    padding: 20px;
+    border-radius: 30px;
+    border: solid skyblue 2px;
+    color: aquamarine;
+}
+.billreg:hover{
+    background-color: rgba(1, 1, 1,0.5);
+}
+.allreg{
+
+    position: absolute;
+    height: 300px;
+    top: 470px;
+    left: 500px;
+    width: 300px; 
+    padding: 20px;
+    border-radius: 30px;
+    border: solid skyblue 2px;
+    color: aquamarine;
+}
+.allreg:hover{
+    background-color: rgba(1, 1, 1,0.5);
+}
+.header{
+    background-color: rgba(1, 1, 1,0.5);
+    height: 70px;
+    width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 0px;
+  margin-left: 0px;
+  border-radius: 10px;
+  padding-left: 20px;
+
+
+}
+.header:hover{
+    background-color: rgba(1, 1, 1,1);
+}
+
+  .linkers{
+ position: relative; 
+    display: flex;
+    flex-direction: row;
+    color: aquamarine;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+     left: 30%; 
+    margin: 20px;  
+    text-decoration: none; 
+} 
+.linkers:hover{
+    text-decoration: wavy;
+    color: black;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+h2{
+    color: aquamarine;
+    position:relative;
+    top: 20px;
+    
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.div2 {
+    height: 50px;
+    width: 100px;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+.store{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border-radius: 30px;
+    border: 2px solid cyan;
+    left: 900px;
+    top: 100px;
+    padding: 20px;
+    color: aquamarine;
+}
+.store:hover{
+background-color: rgba(1, 1, 1,0.5);
+}
+.doctor{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border-radius: 30px;
+    border: 2px solid cyan;
+    left: 900px;
+    top: 470px;
+    padding: 20px;
+    color: aquamarine;
+
+}
+.doctor:hover{
+background-color: rgba(1, 1, 1,0.5);
+}

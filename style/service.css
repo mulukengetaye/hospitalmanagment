@@ -1,0 +1,98 @@
+.service{
+    width: 450px;
+    height: 590px;
+    align-content: center;
+    /* background-color: #292826; */
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+border-radius: 10px;
+left: 50px;
+
+}
+li{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    padding: 5px;
+    color: #141A46;
+}
+
+body{
+    background-color: #FBEAEB;
+    align-content: center;
+    align-items: center;
+}
+*{
+margin: 0px;
+padding: 0px;
+}
+/* css for the head div start  */
+.header{
+    background-color: rgba(1, 1, 1,1);
+height: 70px;
+width: 100%;
+display: flex;
+flex-direction: row;
+margin-top: 0px;
+margin-left: 0px;
+padding-left: 20px;
+
+
+}
+.header:hover{
+background-color: rgba(1, 1, 1,1);
+}
+i{
+    margin-right: 10px;
+}
+.linkers{
+position: relative; 
+display: flex;
+flex-direction: row;
+color: #F4A950;
+font-size: 20px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: normal;
+left: 70%; 
+margin: 20px;  
+text-decoration: none; 
+} 
+.linkers:hover{
+text-decoration: wavy;
+color: black;
+background-color: aquamarine;
+border-radius: 5px;
+}
+h2{
+color: #F4A950;
+position:relative;
+top: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif 
+}
+/* css for the head div end!  */
+img{
+height: 300px;
+width: 350px;
+border-radius: 20px;
+margin-top: 20px;
+
+}
+.emergence{
+position: absolute;
+left: 500px;
+}
+.xray{
+position: absolute;
+left: 500px;
+top: 390px;
+}
+.laboratory{
+position: absolute;
+left: 880px;
+}
+.sergical{
+position: absolute;
+left: 880px;
+top: 390px;
+}
